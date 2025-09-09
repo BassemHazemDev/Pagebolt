@@ -221,7 +221,7 @@ main #online-learning .content .learning-card .title {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #ffffff 60%, #f3f4fb 60%);
+  background: linear-gradient(90deg, #f3f4fb 60%, #ffffff 60%);
 }
 
 .content-left {
