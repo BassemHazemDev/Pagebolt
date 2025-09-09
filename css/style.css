@@ -762,7 +762,6 @@ main #online-learning .content .learning-card .title {
 
 /* Extra Large Devices (Desktop) - 1200px and up */
 @media (min-width: 1200px) {
-  /* Keep existing desktop styles - no changes needed */
 }
 
 /* Large Devices (Desktop) - 992px to 1199px */
@@ -788,7 +787,6 @@ main #online-learning .content .learning-card .title {
 }
 
 @media (max-width: 991px) {
-  /* Navbar Adjustments */
   nav .navbar-brand {
     width: 100px !important;
   }
@@ -803,7 +801,6 @@ main #online-learning .content .learning-card .title {
     font-size: 0.9rem;
   }
   
-  /* Header Section */
   header .left-content {
     padding: 4rem 2rem 3rem 2rem;
   }
@@ -834,7 +831,6 @@ main #online-learning .content .learning-card .title {
     max-width: 250px;
   }
   
-  /* Online Learning Section */
   main #online-learning .container-fluid {
     padding: 3rem 0rem;
   }
@@ -857,7 +853,6 @@ main #online-learning .content .learning-card .title {
     margin-bottom: 2rem;
   }
   
-  /* Mentor Section */
   .mentor-section {
     padding: 4rem 0;
   }
@@ -877,7 +872,6 @@ main #online-learning .content .learning-card .title {
     right: 5rem;
   }
   
-  /* Main Section */
   .main-section {
     background: var(--very-light-primary-color);
   }
@@ -892,7 +886,6 @@ main #online-learning .content .learning-card .title {
     line-height: 45px;
   }
   
-  /* Hero Section */
   .hero-title {
     font-size: 2.2rem;
     line-height: 45px;
@@ -902,7 +895,6 @@ main #online-learning .content .learning-card .title {
     font-size: 1rem;
   }
   
-  /* FAQ Section */
   .faq-title {
     font-size: 2.2rem;
     line-height: 45px;
@@ -912,7 +904,6 @@ main #online-learning .content .learning-card .title {
     width: 100%;
   }
   
-  /* CTA Section */
   .cta-title {
     font-size: 2.2rem;
     line-height: 45px;
@@ -923,7 +914,6 @@ main #online-learning .content .learning-card .title {
     padding: 5rem 2rem;
   }
   
-  /* Footer */
   .footer .container {
     width: 90% !important;
   }
@@ -935,12 +925,10 @@ main #online-learning .content .learning-card .title {
 }
 
 @media (max-width: 767px) {
-  /* General Font Size Adjustments */
   :root {
     font-size: 14px;
   }
   
-  /* Navbar */
   .navbar .container {
     padding: 0 1rem !important;
   }
@@ -960,7 +948,6 @@ main #online-learning .content .learning-card .title {
     margin-top: 1rem;
   }
   
-  /* Header Section */
   header .container {
     width: 95% !important;
     padding: 0 !important;
@@ -999,7 +986,6 @@ main #online-learning .content .learning-card .title {
     left: 20%;
   }
   
-  /* Online Learning Section */
   main #online-learning .container-fluid {
     padding: 2rem 0rem;
     transform: translateY(-2rem);
@@ -1029,7 +1015,6 @@ main #online-learning .content .learning-card .title {
     margin-bottom: 1.5rem;
   }
   
-  /* Mentor Section */
   .mentor-section {
     padding: 3rem 0;
   }
@@ -1063,7 +1048,6 @@ main #online-learning .content .learning-card .title {
     width: 20%;
   }
   
-  /* Main Section */
   .main-section {
     padding: 3rem 0;
   }
@@ -1095,7 +1079,6 @@ main #online-learning .content .learning-card .title {
     margin-bottom: 1rem;
   }
   
-  /* Hero Section */
   .hero-section {
     padding: 3rem 0;
   }
@@ -1120,7 +1103,6 @@ main #online-learning .content .learning-card .title {
     max-width: 200px;
   }
   
-  /* FAQ Section */
   .faq-section {
     padding: 3rem 0;
   }
@@ -1157,7 +1139,6 @@ main #online-learning .content .learning-card .title {
     font-size: 0.9rem;
   }
   
-  /* CTA Section */
   .cta-section .container {
     width: 95% !important;
   }
@@ -1186,7 +1167,6 @@ main #online-learning .content .learning-card .title {
     display: none;
   }
   
-  /* Footer */
   .footer .container {
     width: 95% !important;
   }
@@ -1226,17 +1206,14 @@ main #online-learning .content .learning-card .title {
 
 /* Extra Small Devices (Small phones) - up to 575px */
 @media (max-width: 575px) {
-  /* Further size reductions for very small screens */
   :root {
     font-size: 13px;
   }
   
-  /* Navbar */
   nav .navbar-brand {
     width: 80px !important;
   }
   
-  /* Header */
   header h1 {
     font-size: 1.6rem;
     line-height: 32px;
@@ -1250,7 +1227,6 @@ main #online-learning .content .learning-card .title {
     font-size: 0.85rem;
   }
   
-  /* Section Titles */
   main #online-learning h2,
   .text-content h2,
   .content-left h1,
@@ -1261,7 +1237,6 @@ main #online-learning .content .learning-card .title {
     line-height: 30px;
   }
   
-  /* Cards and Content */
   .feature-card {
     padding: 1rem;
   }
@@ -1285,7 +1260,6 @@ main #online-learning .content .learning-card .title {
     line-height: 24px;
   }
   
-  /* CTA Section */
   .cta-content {
     padding: 2rem 1rem;
   }
@@ -1295,13 +1269,11 @@ main #online-learning .content .learning-card .title {
     font-size: 0.85rem;
   }
   
-  /* Buttons */
   .btn {
     padding: 0.7rem 1.2rem;
     font-size: 0.85rem;
   }
   
-  /* Rating box in mentor section */
   .rating-box {
     width: 70%;
     top: -1rem;
@@ -1338,14 +1310,12 @@ main #online-learning .content .learning-card .title {
   }
 }
 
-/* Hide floating helper on mobile devices */
 @media (max-width: 768px) {
   .ui-link-helper {
     display: none;
   }
 }
 
-/* Ensure proper spacing and alignment for all screen sizes */
 @media (max-width: 991px) {
   .container,
   .container-fluid {
