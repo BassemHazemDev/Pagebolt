@@ -1,8 +1,11 @@
 /* ================== Base Styles ================== */
-@font-face {
-  font-family: inter;
-  src: url("fonts/Inter-VariableFont_opsz,wght.ttf");
+.inter-my {
+  font-family: "inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 * {
   font-family: inter !important;
