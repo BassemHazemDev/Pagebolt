@@ -1,0 +1,59 @@
+/* ...existing code... */
+
+.reflected-img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+body[dir="rtl"] {
+  text-align: right;
+}
+
+
+
+.navbar-nav {
+  flex-direction: row-reverse;
+}
+
+.faq-icon {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+.ui-link-helper {
+  left: 0 !important;
+  right: auto !important;
+  top: 40% !important;
+  transform: scaleX(-1);
+}
+.ui-tooltip {
+  direction: rtl;
+  text-align: right;
+  transform: scaleX(-1);
+}
+
+header .left-content .avatars-span {
+  right: 17%;
+  left: auto;
+}
+
+.upper-img {
+  width: 16%;
+  top: -2%;
+  right: -1%;
+  z-index: 1;
+}
+
+.lower-img {
+  width: 16%;
+  transform: rotate(270deg);
+  bottom: 0;
+  left: 25%;
+  right: auto;
+  z-index: 1;
+}
+
+.back-to-top-btn {
+  right: auto;
+  left: 32px;
+}
