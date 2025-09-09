@@ -57,3 +57,17 @@ header .left-content .avatars-span {
   right: auto;
   left: 32px;
 }
+
+main #online-learning h2::after {
+  top: 50%;
+  right: 100%;
+}
+
+.footer .subscribe-form .form-control::placeholder {
+  padding-left: 5rem;
+}
+
+.footer .links-contact img{
+  transform: none !important;
+}
+
